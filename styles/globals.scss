@@ -22,6 +22,14 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	color: $DarkBlueText;
+	background: $LightGray;
+}
+
+[data-theme="dark"],
+[data-theme="dark"] body {
+	color: $White;
+	background: $DarkBlueBackground;
 }
 
 code {
